@@ -165,6 +165,10 @@ func readSkiMap(file string) *SkiMap {
 
 	//Open specified file
 	f, err := os.Open(file)
+
+	defer func() {
+		f.Close()
+	}()
 	
 	if err != nil {
 		log.Fatal("Could not open file:", file, err)
