@@ -3,7 +3,7 @@ RedMart challenge for Ski In Singapore
 
 ### Usage:
 ```
-Ski Map - Longest Run.
+Ski Map - Longest and Steepest Run.
 Usage:
   skimap [--input=<file>]
   skimap -h | --help
